@@ -1,0 +1,535 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1570,
+      "max": [
+        0.6590582132339478,
+        0.8818589448928833,
+        -1.7019166520526596e-08
+      ],
+      "min": [
+        -0.6582328677177429,
+        -0.881941020488739,
+        -0.21032926440238953
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18840,
+      "componentType": 5126,
+      "count": 1570,
+      "max": [
+        0.9999890327453613,
+        0.9999903440475464,
+        0.9999997615814209
+      ],
+      "min": [
+        -0.9999886751174927,
+        -0.999988853931427,
+        -0.9999997615814209
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 37680,
+      "componentType": 5126,
+      "count": 1570,
+      "max": [
+        0.6590582132339478,
+        0.8818589448928833,
+        -1.7019166520526596e-08
+      ],
+      "min": [
+        -0.6582328677177429,
+        -0.881941020488739,
+        -0.21032926440238953
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 56520,
+      "componentType": 5126,
+      "count": 1570,
+      "max": [
+        0.9999890327453613,
+        0.9999903440475464,
+        0.9999997615814209
+      ],
+      "min": [
+        -0.9999886751174927,
+        -0.999988853931427,
+        -0.9999997615814209
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 36432,
+      "componentType": 5125,
+      "count": 9108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 75360,
+      "componentType": 5126,
+      "count": 1836,
+      "max": [
+        1.051950216293335,
+        1.6407415866851807,
+        1.0498747825622559
+      ],
+      "min": [
+        -1.0519508123397827,
+        -1.6407415866851807,
+        -1.0498753786087036
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 97392,
+      "componentType": 5126,
+      "count": 1836,
+      "max": [
+        1.0,
+        1.0,
+        0.9980268478393555
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9980267882347107
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1836,
+      "max": [
+        0.65625,
+        0.9996917247772217
+      ],
+      "min": [
+        0.3437499403953552,
+        0.0003082007169723511
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 72864,
+      "componentType": 5125,
+      "count": 10200,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "alex.yefremov (https://sketchfab.com/alex.yefremov)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bitcoin-gold-coin-aa32084f0d4043eda8b044668e53a062",
+      "title": "BitCoin gold coin"
+    },
+    "generator": "Sketchfab-14.77.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 113664,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14688,
+      "byteOffset": 113664,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 119424,
+      "byteOffset": 128352,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 247776,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "lambert5",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.9420370382924272,
+          0.3581108469719254,
+          1.0
+        ],
+        "roughnessFactor": 0.3521341463414634
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "lambert1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.8464433773127852,
+          0.0,
+          1.0
+        ],
+        "roughnessFactor": 0.2423780487804878
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bitcoin_Logo:Bitcoin_Logo__0_lambert5_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bitcoin_Logo__0_lambert5_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "pCylinder1_lambert1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "b0a7381b2dae4c34881538eef0e28498.fbx"
+    },
+    {
+      "children": [
+        3,
+        14
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Bitcoin_Logo:scene"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.7008731365203857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.7008731365203857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.7008731365203857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:Meshes"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:Sketchfab_model"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:ca8f6b749e9e41439ddfd30ecb277ff4_fbx"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Bitcoin_Logo:RootNode"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        99.9999999999999,
+        4.371138857095499e-06,
+        0.0,
+        0.0,
+        -4.371138857095499e-06,
+        99.9999999999999,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:Bitcoin_Logo"
+    },
+    {
+      "children": [
+        10,
+        12
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        6.617444900424222e-24,
+        0.0,
+        0.0,
+        -6.617444900424222e-24,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:Bitcoin_Logo__0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        0.07248194515705109,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.07248194515705109,
+        1.2407709714685273e-24,
+        0.0,
+        0.0,
+        -2.496539688632163e-25,
+        0.014584001153707504,
+        0.0,
+        0.0,
+        2.2960813805816827e-10,
+        0.005252821836620569,
+        1.0
+      ],
+      "name": "Bitcoin_Logo:Bitcoin_Logo__0"
+    },
+    {
+      "mesh": 0,
+      "name": "Bitcoin_Logo:Bitcoin_Logo__0_lambert5_0"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        -0.07248194515705109,
+        8.876478213255661e-18,
+        -7.170223727834443e-16,
+        0.0,
+        8.876478213255572e-18,
+        0.07248194515705109,
+        8.876478213255661e-18,
+        0.0,
+        1.44271171106817e-16,
+        1.786025033164902e-18,
+        -0.014584001153707504,
+        0.0,
+        0.0,
+        -2.3244429991908788e-10,
+        -0.005317705683410168,
+        1.0
+      ],
+      "name": "Bitcoin_Logo__0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bitcoin_Logo__0_lambert5_0"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        14.99406909942627,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.932111534142417e-16,
+        -0.8701456785202026,
+        0.0,
+        0.0,
+        14.99406909942627,
+        -3.329352149400726e-15,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "pCylinder1"
+    },
+    {
+      "mesh": 2,
+      "name": "pCylinder1_lambert1_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

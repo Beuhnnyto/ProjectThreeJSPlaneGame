@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+	background-color: #000;
+	overflow: hidden;
+}
+
+.webgl{
+	display: block;
+	margin: 0 auto;
+	top: 0;
+    left: 0;
+}
+
+.score-container {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	transition: transform 0.5s 4s;
+}
+
+.score-container #score {
+	color: white;
+	font-size: 8vh;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+
+.timer-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: transform 0.5s 4s;
+}
+
+.timer-container #timer {
+    color: white;
+    font-size: 8vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.level-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.5s 4s;
+}
+
+.level-container #level {
+    color: white;
+    font-size: 8vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+/* .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s 4s;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #ff0000;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+.button-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s 4s;
+}
